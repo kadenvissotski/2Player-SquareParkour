@@ -54,6 +54,6 @@ public class PlayerMovement : MonoBehaviour
     {
         speed = boostedSpeed; // Increase speed
         yield return new WaitForSeconds(5); // Wait for 5 seconds
-        speed = 10f; // Reset speed
+        speed = 6f; // Reset speed
     }
 }
